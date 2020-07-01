@@ -12,10 +12,11 @@ Folgendes Skript hilft den Fehler zu finden:
 
 #!/bin/bash
 
+```
 if ! grep -qi error *.java
 then
   exit 0
 else
   exit 1
 fi
-
+```
